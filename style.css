@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+a{
+    color: black;
+    text-decoration:none;
+}
+
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+/*ここから記入*/
+
+/*header*/
+.header{
+    background-color: #fff;
+    box-shadow: rgb(163, 163, 163) 1px 1px 6px ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: 100;
+
+}
+
+.header > .container{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+/*logo*/
+.header .logo{
+    display: block;
+}
+
+.header .logo img{
+    height: 30px;
+    vertical-align: bottom;
+}
+
+/*ナビゲーション*/
+.area_nav_header{
+    margin-left: auto;
+}
+
+.list_nav_header{
+    display: flex;
+    align-items: center;
+}
+.list_nav_header li{
+    font-size: 12px;
+}
+.list_nav_header li + li{
+    margin-left: 60px;
+}
+
+.list_nav_header .contact_btn{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 50px;
+}
+
+
+
+.list_nav_header .contact_btn a{
+    margin: 30px auto;
+    padding: 0 30px;
+}
+
+.list_nav_header .contact_btn:hover{
+    color: #fff;
+    background-color: aqua;
+    border: #fff solid 1px;
+}
+
+/*mainvisual*/
+.mainvisual{
+    height: 100;
+    margin:95px 0;
+    padding: 150px 0;
+}
+
+.main_title{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.mainvisual .description{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+
+/*section*/
+
+.section_title{
+    text-align: center;
+    margin-bottom: 120px;
+}
+section{
+    display: flex;
+    align-items: center;
+    margin: 100px auto;
+    padding: 100px auto;
+}
+.content_container{
+    max-width: 960px;
+    margin: 0 auto 100px auto;
+    padding: 0 10%;
+}
+
+.area_list_item_clum3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.area_list_item_clum3 li{
+    margin-bottom: 40px;
+    text-align: center;
+    max-width: 33%;
+}
+
+.area_list_item_clum3 li:nth-child(4){
+    margin-left: 0;
+}
+
+
+.area_list_item_clum3 li img{
+    height: 250px;
+
+}
+
+.area_list_item_clum3 li + li{
+    margin-left: 30px;
+}
+
+
+/*About*/
+.section_colum_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 80px;
+}
+.left_item{
+    max-width:50%;
+}
+
+.left_item img{
+    max-width:80%;
+}
+
+.right_item{
+    max-width: 50%;
+    text-align: center;
+} 
